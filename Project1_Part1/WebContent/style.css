@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+
+#main {
+	margin: auto;
+	width: 70%;
+	padding: 0px 15px 15px;
+	background: white;
+	border: 2px solid teal;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+fieldset, input, textarea {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+	width: 55%;
+	margin: 30px auto;
+	border: solid 1px teal;
+	border-collapse: unset;
+	text-align: center;
+	border-collapse: unset;
+}
+
+textarea {
+	width: 100%;
+	margin: 5px 0;
+	padding: 3px;
+}
+
+tr {
+	border: 1px solid #cbcbcb;
+}
+
+th {
+	background-color: #00CED1;
+}
+
+th, td {
+	border: none;
+	height: 50px;
+	padding: 2px;
+}
+
+tr:hover {
+	background: #F5F5F5;
+}
+
+h1, h2 {
+	text-align: center;
+	color: teal;
+}
+
+p, font {
+	text-align: center;
+}
+
+caption {
+	text-align: center;
+	color: teal;
+	font-size: large;
+}
+
+label {
+	width: 12em;
+	padding-right: 8px;
+	float: left;
+}
+
+#data input, select {
+	float: left;
+	width: 15em;
+	margin-bottom: .5em;
+}
+
+#buttons input {
+	background-color: teal;
+	border: 2px solid teal;
+	border-radius: 10px;
+	color: white;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#buttons input:hover {
+	background-color: white;
+	color: teal;
+	border: 2px solid teal;
+}
+
+#button input {
+	background-color: teal;
+	border: 2px solid teal;
+	border-radius: 10px;
+	color: white;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#button input:hover {
+	background-color: white;
+	color: teal;
+	border: 2px solid teal;
+}
